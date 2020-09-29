@@ -12,6 +12,6 @@ export PYBUILD_NAME=loguru
 #export PYBUILD_INSTALL_ARGS=--install-lib=/usr/lib/python3/dist-packages/ --install-scripts=/usr/bin/
 
 %:
-	dh $@ --with python3 --use-pep517 --buildsystem=pybuild
+	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_test:
