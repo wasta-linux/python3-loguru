@@ -1,0 +1,5 @@
+python3-loguru (0.1) focal; urgency=medium
+
+  * Initial release.
+
+ -- Nate Marti <nate_marti@sil.org>  Tue, 29 Sep 2020 11:10:03 +0100
